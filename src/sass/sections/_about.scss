@@ -1,16 +1,14 @@
 #about {
-  background-color: $primary-color;
+  background-color: $white-color;
   background-image: linear-gradient(
     135deg,
-    $primary-color 0%,
-    $secondary-color 100%
+    $white-color 100%
   );
-  color: $white-color;
+  color: $light-grey; 
   height: 100%;
-  border-top: 0px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 10%;
+  width: 100%; 
+  border-top: 0;
+  padding-bottom: 10%; 
 
   @include respond(tab-land) {
     height: 100%;
